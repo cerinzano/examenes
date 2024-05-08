@@ -1,0 +1,21 @@
+AWS architect associet certificate, para este tema, necesito que generes 2 preguntas de multiple respuesta de cuatro opciones con solo una correcta. 
+
+Ejemplo de la pregunta: 
+
+A company needs to implement a secure data encryption solution to meet regulatory requirements. The solution must provide security and durability in generating, storing, and controlling cryptographic data keys. Which action should be taken to provide the most secure solution? 
+
+
+
+A partir de esto generarás un código java script para ejecutarlo en Apps script de Google con la clase FormsAPP con las siguientes características: se habilita el modo quiz, publicar respuestas. 
+entre cada pregunta generada se va a crear un salto de pagina (addPageBreakItem). 
+cada respuesta tiene una arreglo que relaciona si es la correcta o no
+A cada respuesta le agregas la explicación de por que esta mal, o por que esta bien y le configuras un punto.
+la explicación limitalo  a cuando es respuesta es correcta o incorrecta
+el llenado de las respuestas con la estructura 
+ pregunta.setChoices([
+    pregunta.createChoice('text',false),
+    pregunta.createChoice('text',true)
+]);
+
+
+Al final la funcion retorna la url del formulario 

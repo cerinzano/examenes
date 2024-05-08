@@ -1,0 +1,42 @@
+
+AWS architect associet certificate section desing secure architecture, para este tema, necesito que generes 10 preguntas de multiple respuesta de cuatro opciones con solo una correcta, con la explicación. las ubicas en un arreglo como el sugueinte ejemplo
+
+Please give me the content in English
+
+The code explanation in no needed.
+
+I need complex questions
+
+Example:
+
+which design solution will ensure resiliency or high availability, and scale to meet the demand? A few key words that I see are customers are not able to access resources and need to keep up with the demand, multiple data centers, and increased growth.
+
+Now let's look at our choices for answers.
+
+The responses are:
+
+A. a VPC configured with an Application Load Balancer targeting an EC2 Auto Scaling group consisting of Amazon EC2 instances in one Availability Zone.
+
+B. Multiple Amazon EC2 instances configured within peered VPCs across two Availability Zones.
+
+C. A VPC configured with a Network Load Balancer targeting an EC2 Auto Scaling group consisting of Amazon EC2 instances spanning two Availability Zones.
+
+D. A VPC configured with an Application Load Balancer targeting an EC2 Auto Scaling group consisting of Amazon EC2 instances spanning two AWS Regions.
+
+var preguntas = [
+
+{
+
+enunciado: 'texto',
+
+opciones: ['texto', 'texto', 'texto', 'texto'],
+
+respuestasCorrectas: [bool, bool, bool, bool],
+
+explicacionCorrecta: 'text',
+
+explicacionIncorrecta: 'text'
+
+}
+
+]
